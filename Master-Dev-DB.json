@@ -1,0 +1,257 @@
+{
+  "Aluno":
+  {
+      "id":"1",
+      "Nome" : "Renan dos Santos Bezerra",
+      "Matricula" : "20192135000030",
+      "Curso" : "Bacharelado em Ciência da computação",
+      "Sigla" : "BCC",
+      "Semestres" :[
+          {
+              "disciplinas" :[
+                  {
+                      "Titulo":"Trabalho de conclusão de Curso",
+                      "Sigla" : "TCC",
+                      "CargaHorario" : "120"
+                  },
+                  {
+                      "Titulo":"Desenvolvimento Web",
+                      "Sigla" : "DW",
+                      "CargaHorario" : "120"
+                  },
+                  {
+                      "Titulo":"Computação Gráfica",
+                      "Sigla" : "CG",
+                      "CargaHorario" : "80"
+                  },
+                  {
+                      "Titulo":"Gerência de Projetos",
+                      "Sigla" : "GP",
+                      "CargaHorario" : "40"
+                  }
+              ]
+          }
+      ],
+      "Horario" : [
+        {
+          "Segunda" : 
+            {
+              "A_Sigla" : "CG",
+              "A_Disciplina" : "Computação Gráfica",
+              "Sala_A" : "LINF3",
+              "B_Sigla" : "CG",
+              "B_Disciplina" : "Computação Gráfica",
+              "Sala_B" : "LINF3",
+              "C_Sigla" : "GP",
+              "C_Disciplina" : "Gerência de Projetos",
+              "Sala_C" : "LINF3",
+              "D_Sigla" : "GP",
+              "D_Disciplina" : "Gerência de Projetos",
+              "Sala_D" : "LINF3"
+            },
+            "Terca" :
+            {
+              "A_Sigla" : "COMP",
+              "A_Disciplina" : "Compiladores",
+              "Sala_A" : "LINF2",
+               "B_Sigla" : "COMP",
+              "B_Disciplina" : "Compiladores",
+              "Sala_B" : "LINF2",
+              "C_Sigla" : "DW",
+              "C_Disciplina" : "Desenvolvimento Web",
+              "Sala_C" : "LINF4",
+              "D_Sigla" : "DW",
+              "D_Disciplina" : "Desenvolvimento Web",
+              "Sala_D" : "LINF4"
+            },
+            "Quarta" :
+            {
+              "A_Sigla" : "CG",
+              "A_Disciplina" : "Computação Gráfica",
+              "Sala_A" : "LINF1",
+              "B_Sigla" : "CG",
+              "B_Disciplina" : "Computação Gráfica",
+              "Sala_B" : "LINF1",
+              "C_Sigla" : "COMP",
+              "C_Disciplina" : "Compiladores",
+              "Sala_C" : "LINF1",
+              "D_Sigla" : "COMP",
+              "D_Disciplina" : "Compiladores",
+              "Sala_D" : "LINF1"
+            },
+            "Quinta" : 
+            {
+              "A_Sigla" : "TCC I",
+              "A_Disciplina" : "Trabalho de Conclusão de Curso 1",
+              "Sala_A" : "LINF5",
+              "B_Sigla" : "TCC I",
+              "B_Disciplina" : "Trabalho de Conclusão de Curso 1",
+              "Sala_B" : "LINF5",
+              "C_Sigla" : "TCC I",
+              "C_Disciplina" : "Trabalho de Conclusão de Curso 1",
+              "Sala_C" : "LINF5",
+              "D_Sigla" : "TCC I",
+              "D_Disciplina" : "Trabalho de Conclusão de Curso 1",
+              "Sala_D" : "LINF5"
+            },
+            "Sexta" : 
+            {
+              "A_Sigla" : "DW",
+              "A_Disciplina" : "Desenvolvimento Web",
+              "Sala_A" : "LINF1",
+              "B_Sigla" : "DW",
+              "B_Disciplina" : "Desenvolvimento Web",
+              "Sala_B" : "LINF1",
+              "C_Sigla" : "DW",
+              "C_Disciplina" : "Desenvolvimento Web",
+              "Sala_C" : "LINF1",
+              "D_Sigla" : "DW",
+              "D_Disciplina" : "Desenvolvimento Web",
+              "Sala_D" : "LINF1"
+            }
+        }
+      ],
+      "Diario" : 
+        {
+              "TCC" : {
+                    "N1" : "8.0",
+                    "N2" : "9.0",
+                    "MP" : "8.5",
+                    "PF" : "N/A",
+                    "Situacao" : "Aprovado"
+                },
+              "DW" :  {
+                    "N1" : "7.0",
+                    "N2" : "7.0",
+                    "MP" : "7.0",
+                    "PF" : "N/A",
+                    "Situacao" : "Aprovado"
+                },
+              "CG" :   {
+                    "N1" : "8.0",
+                    "N2" : "5.0",
+                    "MP" : "6.5",
+                    "PF" : "8.0",
+                    "Situacao" : "Aprovado"
+                },
+              "GP" :  {
+                    "N1" : "10.0",
+                    "N2" : "9.0",
+                    "MP" : "9.5",
+                    "PF" : "N/A",
+                    "Situacao" : "Aprovado"
+                }
+            
+        }
+    
+  },
+
+
+  "Professor" : {
+    "id" :"1",
+    "Nome" : "Fulano de Tal Bezerra",
+    "Email" : "fulano_de_Tal@ifce.edu.br",
+    "DataAdmissao" : "22/02/22",
+    "Turmas" : {
+      "IP_BCC_S1":[
+        {
+          "Nome": "Cicrano Albuquerque",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        },
+        {
+          "Nome": "Beltrano Joaquin",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        },
+        {
+          "Nome": "Juvenal Hedgar",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        }
+      ],
+      "DW_BCC_S7":[
+        {
+          "Nome": "Chiquinho Bretão",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        },
+        {
+          "Nome": "Beltrano Joaquin",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        },
+        {
+          "Nome": "Vizimir",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        }
+      ],
+      "CG_BCC_S7":[
+        {
+          "Nome": "Calanguinho",
+          "Matricula" : "20222022",
+          "N1" : "8.0",
+          "N2" : "5.5",
+          "Faltas" : "8"
+        },
+        {
+          "Nome": "Alnaldo",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "20"
+        },
+        {
+          "Nome": "Juvenal Hedgar",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        }
+      ],
+      "MTC_BCC_S3":[
+        {
+          "Nome": "Gluviano",
+          "Matricula" : "20222022",
+          "N1" : "9.5",
+          "N2" : "9.5",
+          "Faltas" : "6"
+        },
+        {
+          "Nome": "Beltrano Joaquin",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        },
+        {
+          "Nome": "Juvenal Hedgar",
+          "Matricula" : "20222022",
+          "N1" : "8.5",
+          "N2" : "7.5",
+          "Faltas" : "8"
+        }
+      ]
+    }
+  },
+
+
+  "Coordenador" :{
+    "id" : "1",
+    "Nome" : "Cooº Beltrano de Villa Bello",
+    "Email" : "Beltrano_Villa_Bello@ifce.edu.cr"
+  }
+}

@@ -1,0 +1,381 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+:root{
+    --red: #830F0F;
+    --green: #458E32;
+    --background: #DFE9DF;
+    --ligth-red:#873939;
+    --pink: #D8B7B7;
+
+    font-family: 'Poppins', sans-serif;
+}
+ 
+
+/*  ---------------------------------------------------  */ 
+
+/*  Login - Início   */ 
+
+.Login{
+    display: flex;
+    align-items: left;
+    height: 667px;
+}
+
+.Formulario{
+    background-color: var(--red);
+    padding: 40px;
+    height: 667px;
+    width: 400px;
+}
+
+.Formulario form{
+    margin-top: 80px;
+}
+
+
+.Formulario form input{
+    margin: 15px;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px white;
+    background-color: var(--ligth-red);
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+
+
+} 
+
+#Entrar{
+    background-color: var(--green);
+    color: white;
+    margin-top: 200px;
+    border: none;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.MasterDev{
+    padding: 40px;
+    background-image: url("../assets/image3.png");
+    width: 1000px;
+    height: 667px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-color: var(--background);
+    background-position: 400px;
+}
+
+.MasterDev label{
+    display: flex;
+    align-items: flex-start;
+    font-weight: 800;
+}
+
+#Master{
+    color: var(--red);
+    font-size: 40px;
+
+}
+
+#DEV{
+    color: var(--green);
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+h6{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+/*  Login - Fim   */ 
+
+/*  ---------------------------------------------------  */ 
+
+/*  Menu - Início   */ 
+input{
+    background-color: #DFE9DF;
+    border: none;
+    width: 250px;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+label{
+    padding: 10px;
+    color: white;
+}
+
+
+input:hover{
+    color: #830F0F ;
+    background-color: white;
+
+}
+
+.Menu{
+    background-color: #830F0F;
+    width: 250px;
+    height: 667px;
+}
+
+.Itens{
+    margin-top: 50px;
+}
+
+.M-D{
+   background-image: url("../assets/mt-ded.jpg");
+   background-size: 240px;
+   width: 250px;
+   height: 135px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.Aluno{
+    text-align: center;
+}
+
+
+/*  Menu - Fim   */ 
+
+
+/*  ---------------------------------------------------  */ 
+/*  Horario - Início   */ 
+
+.Horario{
+    display: flex;
+    align-items: left;
+    background-color: var(--background);
+}
+
+.Horario-Main{
+    display: flex;
+    align-items: left;
+}
+
+.IMG-Horario{
+    background-image: url("../assets/image6.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    width: 95px;
+    height: 70px;
+    margin: 20px;
+}
+
+.Tabela-Horario{
+    border: solid 1px black;
+    margin: 20px;
+    margin-top: 50px;
+
+    tr th{
+        border: solid 1px black;
+        width: 200px;
+        text-align: center;
+        color: var(--red);
+    }
+
+    tr td{
+        text-align: center;
+        border: solid 1px black;
+        width: 200px;
+    }
+}
+
+.Detalhes-Horario{
+    list-style: none;
+    margin-left: 20px;
+    height: 100px;
+    display: flex;
+    align-items: left;
+
+    .Salas{
+        list-style: none;
+        width: 400px;
+        font-weight: 600;
+    }
+
+    .Disciplinas{
+        list-style: none;
+        width: 400px;
+        font-weight: 600;
+    }
+}
+
+/*  Horario - Fim   */ 
+
+/*  ---------------------------------------------------  */ 
+
+/*  Boletim - Início   */ 
+
+.Boletim{
+    display: flex;
+    align-items: left;
+    background-color: var(--background);
+}
+
+.Boletim-Main{
+    display: flex;
+    align-items: left;
+}
+
+.IMG-Boletim{
+    background-image: url("../assets/image4.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    width: 95px;
+    height: 70px;
+    margin: 20px;
+}
+
+/*  Boletim - Fim   */ 
+
+/*  ---------------------------------------------------  */ 
+
+/*  Diário - Início   */ 
+
+.Diario{
+    display: flex;
+    align-items: left;
+    background-color: var(--background);
+}
+
+.Diario-Main{
+    display: flex;
+    align-items: left;
+}
+.IMG-Diario{
+    background-image: url("../assets/image5.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    width: 95px;
+    height: 70px;
+    margin: 20px;
+}
+
+.Disciplina{
+    font-size: 16px;
+    color: black;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+select{
+    background-color: var(--red);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.Notas{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    align-items: left;
+}
+
+#notas{
+    margin-left: 25px;
+    width: 200px ;
+    background-color: var(--pink);
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#avaliacoes{
+    color: black;
+    font-size: 16;
+    font-weight: 700;
+}
+
+/*  Diário - Fim   */ 
+
+/*  ---------------------------------------------------  */ 
+
+/*  Informações do Aluno - Início   */ 
+
+.Informacoes{
+    display: flex;
+    align-items: left;
+    background-color: var(--background);
+}
+
+.Informacoes-Main{
+    display: flex;
+    align-items: left;
+}
+
+.IMG-Informacoes{
+    background-image: url("../assets/mais-informacoes.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    width: 95px;
+    height: 70px;
+    margin: 20px;
+}
+.Dados-Aluno{
+    list-style: none;
+    margin: 20px;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--red);
+}
+
+/*  Informações do Aluno - Fim   */ 
+
+/*  ---------------------------------------------------  */ 
+
+/*  Global - Incio   */ 
+
+h1{
+    color: var(--red);
+    width: 400px;
+    margin-top: 30px;
+}
+
+
+h2{
+    color: black;
+    width: 230px;
+    height: 60px;
+    padding: 7px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "Poppins";
+    margin-left: 300px;
+    font-weight: 500;
+}
+
+.Box{
+    background-color: white;
+    width: 1080px;
+    height: 550px;
+    margin-left: -1050px;
+    margin-top: 110px;
+}
+
+/*  Global - Fim   */ 
